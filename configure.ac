@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 3)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, false)
 define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([ClubCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/BitClubDev/ClubCoin/issues],[clubcoin])
+AC_INIT([CM_CapitalName Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/realspencerdupre/PoS_Sourcecoin/issues],[CM_LowerName])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -14,9 +14,9 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef CLUBCOIN_CONFIG_H])
-AH_TOP([#define CLUBCOIN_CONFIG_H])
-AH_BOTTOM([#endif //CLUBCOIN_CONFIG_H])
+AH_TOP([#ifndef CM_UpperName_CONFIG_H])
+AH_TOP([#define CM_UpperName_CONFIG_H])
+AH_BOTTOM([#endif //CM_UpperName_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -523,7 +523,7 @@ AC_SUBST(LIBMEMENV)
 
 if test x$enable_wallet != xno; then
     dnl Check for libdb_cxx only if wallet enabled
-    CLUBCOIN_FIND_BDB48
+    CM_UpperName_FIND_BDB48
 fi
 
 dnl Check for libminiupnpc (optional)
@@ -535,10 +535,10 @@ if test x$use_upnp != xno; then
   )
 fi
 
-CLUBCOIN_QT_INIT
+CM_UpperName_QT_INIT
 
 dnl sets $bitcoin_enable_qt, $bitcoin_enable_qt_test, $bitcoin_enable_qt_dbus
-CLUBCOIN_QT_CONFIGURE([$use_pkgconfig], [qt5])
+CM_UpperName_QT_CONFIGURE([$use_pkgconfig], [qt5])
 
 if test x$build_bitcoin_utils$build_bitcoind$bitcoin_enable_qt$use_tests = xnononono; then
     use_boost=no
@@ -684,9 +684,9 @@ if test x$use_pkgconfig = xyes; then
     [
       PKG_CHECK_MODULES([SSL], [libssl],, [AC_MSG_ERROR(openssl  not found.)])
       PKG_CHECK_MODULES([CRYPTO], [libcrypto],,[AC_MSG_ERROR(libcrypto  not found.)])
-      CLUBCOIN_QT_CHECK([PKG_CHECK_MODULES([PROTOBUF], [protobuf], [have_protobuf=yes], [CLUBCOIN_QT_FAIL(libprotobuf not found)])])
+      CM_UpperName_QT_CHECK([PKG_CHECK_MODULES([PROTOBUF], [protobuf], [have_protobuf=yes], [CM_UpperName_QT_FAIL(libprotobuf not found)])])
       if test x$use_qr != xno; then
-        CLUBCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode], [have_qrencode=yes], [have_qrencode=no])])
+        CM_UpperName_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode], [have_qrencode=yes], [have_qrencode=no])])
       fi
       if test x$build_bitcoin_utils$build_bitcoind$bitcoin_enable_qt$use_tests != xnononono; then
         PKG_CHECK_MODULES([EVENT], [libevent],, [AC_MSG_ERROR(libevent not found.)])
@@ -735,10 +735,10 @@ else
     AC_DEFINE_UNQUOTED([ENABLE_ZMQ],[0],[Define to 1 to enable ZMQ functions])
   fi
 
-  CLUBCOIN_QT_CHECK(AC_CHECK_LIB([protobuf] ,[main],[PROTOBUF_LIBS=-lprotobuf], CLUBCOIN_QT_FAIL(libprotobuf not found)))
+  CM_UpperName_QT_CHECK(AC_CHECK_LIB([protobuf] ,[main],[PROTOBUF_LIBS=-lprotobuf], CM_UpperName_QT_FAIL(libprotobuf not found)))
   if test x$use_qr != xno; then
-    CLUBCOIN_QT_CHECK([AC_CHECK_LIB([qrencode], [main],[QR_LIBS=-lqrencode], [have_qrencode=no])])
-    CLUBCOIN_QT_CHECK([AC_CHECK_HEADER([qrencode.h],, have_qrencode=no)])
+    CM_UpperName_QT_CHECK([AC_CHECK_LIB([qrencode], [main],[QR_LIBS=-lqrencode], [have_qrencode=no])])
+    CM_UpperName_QT_CHECK([AC_CHECK_HEADER([qrencode.h],, have_qrencode=no)])
   fi
 fi
 
@@ -750,21 +750,21 @@ AC_CHECK_HEADER([openssl/ec.h],, AC_MSG_ERROR(OpenSSL ec header missing),)
 CXXFLAGS="$CXXFLAGS_TEMP"
 LIBS="$LIBS_TEMP"
 
-CLUBCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
+CM_UpperName_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
 AC_MSG_CHECKING([whether to build bitcoind])
-AM_CONDITIONAL([BUILD_CLUBCOIND], [test x$build_bitcoind = xyes])
+AM_CONDITIONAL([BUILD_CM_UpperNameD], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
 AC_MSG_CHECKING([whether to build utils (bitcoin-cli bitcoin-tx)])
-AM_CONDITIONAL([BUILD_CLUBCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
+AM_CONDITIONAL([BUILD_CM_UpperName_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
 AC_MSG_CHECKING([whether to build libraries])
-AM_CONDITIONAL([BUILD_CLUBCOIN_LIBS], [test x$build_bitcoin_libs = xno])
+AM_CONDITIONAL([BUILD_CM_UpperName_LIBS], [test x$build_bitcoin_libs = xno])
 if test x$build_bitcoin_libs = xyes; then
   AC_DEFINE(HAVE_CONSENSUS_LIB, 1, [Define this symbol if the consensus lib has been built])
-  AC_CONFIG_FILES([libclubcoinconsensus.pc:libclubcoinconsensus.pc.in])
+  AC_CONFIG_FILES([libCM_LowerNameconsensus.pc:libCM_LowerNameconsensus.pc.in])
 fi
 AC_MSG_RESULT($build_bitcoin_libs)
 

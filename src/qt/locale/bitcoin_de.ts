@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ClubCoin</source>
-        <translation>Über ClubCoin</translation>
+        <source>About CM_CapitalName</source>
+        <translation>Über CM_CapitalName</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ClubCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ClubCoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CM_CapitalName&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The ClubCoin developers</source>
+Copyright © 2015 The CM_CapitalName developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -59,8 +59,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your ClubCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre ClubCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
+        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre CM_CapitalName Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -74,8 +74,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a ClubCoin address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine ClubCoin Adresse besitzen</translation>
+        <source>Sign a message to prove you own a CM_CapitalName address</source>
+        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine CM_CapitalName Adresse besitzen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -89,8 +89,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified ClubCoin address</source>
-        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten ClubCoin Adresse signiert wurde</translation>
+        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
+        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten CM_CapitalName Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -257,8 +257,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>ClubCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ClubCoin wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
+        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CM_CapitalName wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -351,8 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ClubCoin</source>
-        <translation>Informationen über ClubCoin anzeigen</translation>
+        <source>Show information about CM_CapitalName</source>
+        <translation>Informationen über CM_CapitalName anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -391,13 +391,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a ClubCoin address</source>
-        <translation>Senden Sie Coins an eine ClubCoin Adresse</translation>
+        <source>Send coins to a CM_CapitalName address</source>
+        <translation>Senden Sie Coins an eine CM_CapitalName Adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for ClubCoin</source>
-        <translation>Konfigurationsoptionen für ClubCoin ändern</translation>
+        <source>Modify configuration options for CM_CapitalName</source>
+        <translation>Konfigurationsoptionen für CM_CapitalName ändern</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -437,8 +437,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>ClubCoin</source>
-        <translation>ClubCoin</translation>
+        <source>CM_CapitalName</source>
+        <translation>CM_CapitalName</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -447,8 +447,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About ClubCoin</source>
-        <translation>&amp;Über ClubCoin</translation>
+        <source>&amp;About CM_CapitalName</source>
+        <translation>&amp;Über CM_CapitalName</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>ClubCoin client</source>
+        <source>CM_CapitalName client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ClubCoin network</source>
-        <translation><numerusform>%n aktive Verbindung zum ClubCoin Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum ClubCoin Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to CM_CapitalName network</source>
+        <translation><numerusform>%n aktive Verbindung zum CM_CapitalName Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum CM_CapitalName Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ClubCoin address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige ClubCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
+        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige CM_CapitalName Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. ClubCoin can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. ClubCoin kann nicht fortgesetzt werden und wird beendet.</translation>
+        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. CM_CapitalName kann nicht fortgesetzt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -1041,8 +1041,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ClubCoin address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige ClubCoin Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CM_CapitalName Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1060,7 +1060,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>ClubCoin-Qt</source>
+        <source>CM_CapitalName-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1133,13 +1133,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ClubCoin after logging in to the system.</source>
-        <translation>Automatisch ClubCoin starten beim Einloggen in das System.</translation>
+        <source>Automatically start CM_CapitalName after logging in to the system.</source>
+        <translation>Automatisch CM_CapitalName starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ClubCoin on system login</source>
-        <translation>&amp;Starte ClubCoin bei Systemstart</translation>
+        <source>&amp;Start CM_CapitalName on system login</source>
+        <translation>&amp;Starte CM_CapitalName bei Systemstart</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1148,8 +1148,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ClubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den ClubCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den CM_CapitalName client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1158,7 +1158,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ClubCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1233,7 +1233,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ClubCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1244,7 +1244,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von ClubCoins angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von CM_CapitalNames angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1300,7 +1300,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ClubCoin.</source>
+        <source>This setting will take effect after restarting CM_CapitalName.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1319,8 +1319,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ClubCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem ClubCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem CM_CapitalName Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1561,7 +1561,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ClubCoin-Qt help message to get a list with possible ClubCoin command-line options.</source>
+        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1581,13 +1581,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>ClubCoin - Debug window</source>
-        <translation>ClubCoin - Debug Fenster</translation>
+        <source>CM_CapitalName - Debug window</source>
+        <translation>CM_CapitalName - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ClubCoin Core</source>
-        <translation>ClubCoin Kern</translation>
+        <source>CM_CapitalName Core</source>
+        <translation>CM_CapitalName Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1596,7 +1596,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ClubCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the ClubCoin RPC console.</source>
+        <source>Welcome to the CM_CapitalName RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1800,7 +1800,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1900,8 +1900,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid ClubCoin address</source>
-        <translation>Warnung: Ungültige ClubCoin Adresse</translation>
+        <source>WARNING: Invalid CM_CapitalName address</source>
+        <translation>Warnung: Ungültige CM_CapitalName Adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1974,7 +1974,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2035,8 +2035,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ClubCoin address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser ClubCoin Adresse bist.</translation>
+        <source>Sign the message to prove you own this CM_CapitalName address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser CM_CapitalName Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2067,7 +2067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ClubCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2078,7 +2078,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2088,8 +2088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ClubCoin signature</source>
-        <translation>ClubCoin Signatur eingeben</translation>
+        <source>Enter CM_CapitalName signature</source>
+        <translation>CM_CapitalName Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2667,7 +2667,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>ClubCoin version</source>
+        <source>CM_CapitalName version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2726,7 +2726,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2832,8 +2832,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ClubCoin will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird ClubCoin nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird CM_CapitalName nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3139,7 +3139,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. ClubCoin is shutting down.</source>
+        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3204,13 +3204,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ClubCoin</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der ClubCoin Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der CM_CapitalName Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ClubCoin to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die ClubCoin Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die CM_CapitalName Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3274,7 +3274,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. ClubCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
@@ -3314,7 +3314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ClubCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

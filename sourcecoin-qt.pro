@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = clubcoin-qt
+TARGET = CM_LowerName-qt
 VERSION = 0.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network
@@ -421,8 +421,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/clubcoin.icns
-macx:TARGET = "ClubCoin-Qt"
+macx:ICON = src/qt/res/icons/CM_LowerName.icns
+macx:TARGET = "CM_CapitalName-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

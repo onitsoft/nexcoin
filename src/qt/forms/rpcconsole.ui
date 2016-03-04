@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ClubCoin - Debug window</string>
+   <string>CM_CapitalName - Debug window</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -36,7 +36,7 @@
           </font>
          </property>
          <property name="text">
-          <string>ClubCoin Core</string>
+          <string>CM_CapitalName Core</string>
          </property>
         </widget>
        </item>
@@ -299,7 +299,7 @@
        <item row="14" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the ClubCoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -325,7 +325,7 @@
        <item row="16" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the ClubCoin-Qt help message to get a list with possible ClubCoin command-line options.</string>
+          <string>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>

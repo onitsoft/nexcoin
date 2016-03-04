@@ -22,7 +22,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "ClubCoin cannot be compiled without assertions."
+# error "CM_CapitalName cannot be compiled without assertions."
 #endif
 
 //
@@ -75,7 +75,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "ClubCoin Signed Message:\n";
+const string strMessageMagic = "CM_CapitalName Signed Message:\n";
 
 extern enum Checkpoints::CPMode CheckpointsMode;
 
@@ -2594,7 +2594,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("clubcoin-loadblk");
+    RenameThread("CM_LowerName-loadblk");
 
     CImportingNow imp;
 

@@ -4,7 +4,7 @@
 
 *.exe
 src/bitcoin
-src/clubcoind
+src/CM_LowerNamed
 src/bitcoin-cli
 src/bitcoin-tx
 src/test/test_bitcoin
@@ -76,8 +76,8 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-clubcoin-qt
-ClubCoin-Qt.app
+CM_LowerName-qt
+CM_CapitalName-Qt.app
 
 # Unit-tests
 Makefile.test

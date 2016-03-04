@@ -8,20 +8,20 @@
 ;--------------------------------
 
 ; The name of the installer
-Name "ClubCoin Setup"
-Caption "ClubCoin cryptocurrency coin setup"
+Name "CM_CapitalName Setup"
+Caption "CM_CapitalName cryptocurrency coin setup"
 
 ; The file to write
-OutFile "clubcoin-setup.exe"
+OutFile "CM_LowerName-setup.exe"
 
 ; The default installation directory
-InstallDir $PROGRAMFILES\ClubCoin
+InstallDir $PROGRAMFILES\CM_CapitalName
 
 ; Request application privileges for Windows Vista
 RequestExecutionLevel admin
 
-Icon "clubcoin.ico"
-BrandingText "(c) 2015 ClubCoin Developers"
+Icon "CM_LowerName.ico"
+BrandingText "(c) 2015 CM_CapitalName Developers"
 
 SetDatablockOptimize on
 
@@ -30,12 +30,12 @@ SetDatablockOptimize on
 ; Pages
 
 Page license
-LicenseData "clubcoin-license.rtf"
+LicenseData "CM_LowerName-license.rtf"
 
 Page directory
 Page instfiles
 
-!define MUI_FINISHPAGE_RUN "$INSTDIR\clubcoin-qt.exe"
+!define MUI_FINISHPAGE_RUN "$INSTDIR\CM_LowerName-qt.exe"
 
 UninstPage uninstConfirm
 UninstPage instfiles
@@ -50,20 +50,20 @@ Section "" ;No components page, name is not important
   SetOutPath $INSTDIR
   
   ; Put file there
-  File ..\release\clubcoin-qt.exe
+  File ..\release\CM_LowerName-qt.exe
   File libwinpthread-1.dll
   
   ; write uninstall strings
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\ClubCoin" "DisplayName" "ClubCoin (remove only)"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\ClubCoin" "UninstallString" '"$INSTDIR\cc-uninst.exe"'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName" "DisplayName" "CM_CapitalName (remove only)"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName" "UninstallString" '"$INSTDIR\cc-uninst.exe"'
   WriteUninstaller "cc-uninst.exe"
   
-  CreateShortcut "$DESKTOP\ClubCoin.lnk" "$INSTDIR\clubcoin-qt.exe"
+  CreateShortcut "$DESKTOP\CM_CapitalName.lnk" "$INSTDIR\CM_LowerName-qt.exe"
   
 SectionEnd ; end the section
 
 Function .onInstSuccess
-  ExecShell open "$DESKTOP\ClubCoin.lnk"
+  ExecShell open "$DESKTOP\CM_CapitalName.lnk"
 FunctionEnd
 
 
@@ -71,15 +71,15 @@ FunctionEnd
 
 ; Uninstaller
 
-UninstallText "This will uninstall ClubCoin. Hit next to continue."
-UninstallIcon "clubcoin.ico"
+UninstallText "This will uninstall CM_CapitalName. Hit next to continue."
+UninstallIcon "CM_LowerName.ico"
 
 Section "Uninstall"
 
-  Delete "$DESKTOP\ClubCoin.lnk"
-  Delete "$INSTDIR\clubcoin-qt.exe"
+  Delete "$DESKTOP\CM_CapitalName.lnk"
+  Delete "$INSTDIR\CM_LowerName-qt.exe"
   Delete "$INSTDIR\libwinpthread-1.dll"
   Delete "$INSTDIR\cc-uninst.exe"
   
-  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\ClubCoin"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName"
 SectionEnd

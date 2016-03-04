@@ -3,9 +3,9 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: ClubCoin Core consensus library
-Description: Library for the ClubCoin consensus protocol.
+Name: CM_CapitalName Core consensus library
+Description: Library for the CM_CapitalName consensus protocol.
 Version: @PACKAGE_VERSION@
-Libs: -L${libdir} -lclubcoinconsensus
+Libs: -L${libdir} -lCM_LowerNameconsensus
 Cflags: -I${includedir}
 Requires.private: libcrypto

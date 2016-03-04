@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ClubCoin</source>
-        <translation>O ClubCoin</translation>
+        <source>About CM_CapitalName</source>
+        <translation>O CM_CapitalName</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ClubCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ClubCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CM_CapitalName&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The ClubCoin developers</source>
+Copyright © 2015 The CM_CapitalName developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -59,8 +59,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your ClubCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši ClubCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši CM_CapitalName naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -74,8 +74,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a ClubCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva ClubCoin naslova</translation>
+        <source>Sign a message to prove you own a CM_CapitalName address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva CM_CapitalName naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -89,8 +89,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified ClubCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim ClubCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim CM_CapitalName naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -257,8 +257,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>ClubCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ClubCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CM_CapitalName se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -351,8 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ClubCoin</source>
-        <translation>Pokaži informacije o ClubCoin</translation>
+        <source>Show information about CM_CapitalName</source>
+        <translation>Pokaži informacije o CM_CapitalName</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -391,13 +391,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a ClubCoin address</source>
-        <translation>Pošlji kovance na ClubCoin naslov</translation>
+        <source>Send coins to a CM_CapitalName address</source>
+        <translation>Pošlji kovance na CM_CapitalName naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for ClubCoin</source>
-        <translation>Spremeni nastavitve za ClubCoin</translation>
+        <source>Modify configuration options for CM_CapitalName</source>
+        <translation>Spremeni nastavitve za CM_CapitalName</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -437,8 +437,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>ClubCoin</source>
-        <translation>ClubCoin</translation>
+        <source>CM_CapitalName</source>
+        <translation>CM_CapitalName</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -447,8 +447,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About ClubCoin</source>
-        <translation>&amp;O ClubCoin</translation>
+        <source>&amp;About CM_CapitalName</source>
+        <translation>&amp;O CM_CapitalName</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>ClubCoin client</source>
-        <translation>ClubCoin program</translation>
+        <source>CM_CapitalName client</source>
+        <translation>CM_CapitalName program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ClubCoin network</source>
-        <translation><numerusform>%n aktivne povezave na ClubCoin omrežje</numerusform><numerusform>%n aktivnih povezav na ClubCoin omrežje</numerusform><numerusform>%n aktivnih povezav na ClubCoin omrežje</numerusform><numerusform>%n aktivnih povezav na ClubCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to CM_CapitalName network</source>
+        <translation><numerusform>%n aktivne povezave na CM_CapitalName omrežje</numerusform><numerusform>%n aktivnih povezav na CM_CapitalName omrežje</numerusform><numerusform>%n aktivnih povezav na CM_CapitalName omrežje</numerusform><numerusform>%n aktivnih povezav na CM_CapitalName omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -599,8 +599,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ClubCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega ClubCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega CM_CapitalName naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -722,8 +722,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. ClubCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program ClubCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program CM_CapitalName se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1056,8 +1056,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ClubCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven ClubCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven CM_CapitalName naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1075,8 +1075,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>ClubCoin-Qt</source>
-        <translation>ClubCoin-Qt</translation>
+        <source>CM_CapitalName-Qt</source>
+        <translation>CM_CapitalName-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1148,13 +1148,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ClubCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi ClubCoin ob zagonu sistema.</translation>
+        <source>Automatically start CM_CapitalName after logging in to the system.</source>
+        <translation>Avtomatično zaženi CM_CapitalName ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ClubCoin on system login</source>
-        <translation>&amp;Zaženi ClubCoin ob prijavi v sistem</translation>
+        <source>&amp;Start CM_CapitalName on system login</source>
+        <translation>&amp;Zaženi CM_CapitalName ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1163,8 +1163,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ClubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za ClubCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za CM_CapitalName program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1173,8 +1173,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ClubCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na ClubCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na CM_CapitalName omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,8 +1248,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ClubCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu ClubCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu CM_CapitalName aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1315,8 +1315,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ClubCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu ClubCoin aplikacije</translation>
+        <source>This setting will take effect after restarting CM_CapitalName.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu CM_CapitalName aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ClubCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z ClubCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z CM_CapitalName omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1576,8 +1576,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ClubCoin-Qt help message to get a list with possible ClubCoin command-line options.</source>
-        <translation>Prikaži ClubCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice ClubCoin aplikacije</translation>
+        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
+        <translation>Prikaži CM_CapitalName-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice CM_CapitalName aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1596,13 +1596,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>ClubCoin - Debug window</source>
-        <translation>ClubCoin - okno za odpravljanje napak</translation>
+        <source>CM_CapitalName - Debug window</source>
+        <translation>CM_CapitalName - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ClubCoin Core</source>
-        <translation>ClubCoin jedro</translation>
+        <source>CM_CapitalName Core</source>
+        <translation>CM_CapitalName jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1611,8 +1611,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ClubCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri ClubCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri CM_CapitalName datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1621,8 +1621,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the ClubCoin RPC console.</source>
-        <translation>Dobrodošli v ClubCoin RPC konzoli.</translation>
+        <source>Welcome to the CM_CapitalName RPC console.</source>
+        <translation>Dobrodošli v CM_CapitalName RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1815,8 +1815,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite ClubCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite CM_CapitalName naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1915,8 +1915,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid ClubCoin address</source>
-        <translation>OPOZORILO: Neveljaven ClubCoin naslov</translation>
+        <source>WARNING: Invalid CM_CapitalName address</source>
+        <translation>OPOZORILO: Neveljaven CM_CapitalName naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite ClubCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite CM_CapitalName naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2050,8 +2050,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ClubCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva ClubCoin naslova</translation>
+        <source>Sign the message to prove you own this CM_CapitalName address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva CM_CapitalName naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2082,8 +2082,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ClubCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim ClubCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim CM_CapitalName naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2093,8 +2093,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite ClubCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite CM_CapitalName naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2103,8 +2103,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ClubCoin signature</source>
-        <translation>Vnesite ClubCoin podpis</translation>
+        <source>Enter CM_CapitalName signature</source>
+        <translation>Vnesite CM_CapitalName podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2682,8 +2682,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>ClubCoin version</source>
-        <translation>ClubCoin različica</translation>
+        <source>CM_CapitalName version</source>
+        <translation>CM_CapitalName različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2741,7 +2741,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2847,8 +2847,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ClubCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno ClubCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno CM_CapitalName ne bo deloval.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3154,7 +3154,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. ClubCoin is shutting down.</source>
+        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3219,13 +3219,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ClubCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo ClubCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo CM_CapitalName</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ClubCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite ClubCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite CM_CapitalName za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3289,8 +3289,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. ClubCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča ClubCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča CM_CapitalName aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3329,7 +3329,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ClubCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

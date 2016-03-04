@@ -1,25 +1,25 @@
 
-ClubCoin development tree
+CM_CapitalName development tree
 
-ClubCoin is a PoS-based cryptocurrency forked from BlackCoin.
+CM_CapitalName is a PoS-based cryptocurrency forked from BlackCoin.
 
-What is ClubCoin?
+What is CM_CapitalName?
 ===================
 
-ClubCoin is a peer-to-peer digital currency that has a decentralized and consensus based system where all transactions are viewed in a public ledger. Which means nobody has control and everything is completely transparent to everyone on the network.
+CM_CapitalName is a peer-to-peer digital currency that has a decentralized and consensus based system where all transactions are viewed in a public ledger. Which means nobody has control and everything is completely transparent to everyone on the network.
 
 This type of distributed network allows the coin to function without having to trust anyone. The concept of all digital currency is taking the control out of a central authority and putting it where it belongs... In the hands of the people!
 
-With ClubCoin you can transfer money between accounts with ease. You can send any amount to any other person and they will receive it fast and be able to spend it once the transaction is confirmed by the network
+With CM_CapitalName you can transfer money between accounts with ease. You can send any amount to any other person and they will receive it fast and be able to spend it once the transaction is confirmed by the network
 
 Proof of Stake Method
 ===================
 
-ClubCoin uses the Proof of Stake method to secure all transactions. This means whoever is holding ClubCoin can decide to use the coin to help verify the transactions in the ledger. This process is called staking and this is how the newly issued coins are introduced to the network.
+CM_CapitalName uses the Proof of Stake method to secure all transactions. This means whoever is holding CM_CapitalName can decide to use the coin to help verify the transactions in the ledger. This process is called staking and this is how the newly issued coins are introduced to the network.
 
-Anyone can stake coins and be rewarded with newly issued ClubCoin. All you have to do is download a wallet and keep the wallet online to process the transactions. This uses your computing power to distribute and verify the network and you get rewarded.
+Anyone can stake coins and be rewarded with newly issued CM_CapitalName. All you have to do is download a wallet and keep the wallet online to process the transactions. This uses your computing power to distribute and verify the network and you get rewarded.
 
-ClubCoin uses open source code, which means everything is public and can be checked, this is what makes digital currency so powerful. Everything is transparent and available for viewing and nobody has anymore authority than anyone else. Your authority only comes based on how much ClubCoin you are holding and staking and anyone can be part of this network.
+CM_CapitalName uses open source code, which means everything is public and can be checked, this is what makes digital currency so powerful. Everything is transparent and available for viewing and nobody has anymore authority than anyone else. Your authority only comes based on how much CM_CapitalName you are holding and staking and anyone can be part of this network.
 
 Development process
 ===================
@@ -34,7 +34,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-stable release versions of ClubCoin.
+stable release versions of CM_CapitalName.
 
 Feature branches are created when there are major new features being
 worked on by several people.

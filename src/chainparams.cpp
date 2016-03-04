@@ -109,11 +109,11 @@ public:
         assert(hashGenesisBlock == uint256("0x000001768b08da66b92dede0ea8e7dcb97424f93d7ac2ac59e7a6cf98f20615a"));
         assert(genesis.hashMerkleRoot == uint256("0x2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.clubcoin.io", "seed1.clubcoin.io"));
-        vSeeds.push_back(CDNSSeedData("seed2.clubcoin.io", "seed2.clubcoin.io"));
-        vSeeds.push_back(CDNSSeedData("seed3.clubcoin.io", "seed3.clubcoin.io"));
-        vSeeds.push_back(CDNSSeedData("seed4.clubcoin.io", "seed4.clubcoin.io"));
-        vSeeds.push_back(CDNSSeedData("seed5.clubcoin.io", "seed5.clubcoin.io"));
+        vSeeds.push_back(CDNSSeedData("seed1.CM_LowerName.io", "seed1.CM_LowerName.io"));
+        vSeeds.push_back(CDNSSeedData("seed2.CM_LowerName.io", "seed2.CM_LowerName.io"));
+        vSeeds.push_back(CDNSSeedData("seed3.CM_LowerName.io", "seed3.CM_LowerName.io"));
+        vSeeds.push_back(CDNSSeedData("seed4.CM_LowerName.io", "seed4.CM_LowerName.io"));
+        vSeeds.push_back(CDNSSeedData("seed5.CM_LowerName.io", "seed5.CM_LowerName.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(28); // appears as "C" in base58
         base58Prefixes[SCRIPT_ADDRESS] = list_of(85);

@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "clubcoin";
+    const char* pszModule = "CM_LowerName";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ClubCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ClubCoin
-    // Mac: ~/Library/Application Support/ClubCoin
-    // Unix: ~/.clubcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CM_CapitalName
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CM_CapitalName
+    // Mac: ~/Library/Application Support/CM_CapitalName
+    // Unix: ~/.CM_LowerName
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ClubCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "CM_CapitalName";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "ClubCoin";
+    return pathRet / "CM_CapitalName";
 #else
     // Unix
-    return pathRet / ".clubcoin";
+    return pathRet / ".CM_LowerName";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "clubcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "CM_LowerName.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "clubcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "CM_LowerNamed.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

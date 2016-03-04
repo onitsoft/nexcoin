@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ClubCoin</source>
-        <translation>Tietoa ClubCoinista</translation>
+        <source>About CM_CapitalName</source>
+        <translation>Tietoa CM_CapitalNameista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ClubCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ClubCoin&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CM_CapitalName&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The ClubCoin developers</source>
+Copyright © 2015 The CM_CapitalName developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The ClubCoin developers</translation>
+Copyright © 2015 The CM_CapitalName developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -68,8 +68,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your ClubCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat ClubCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat CM_CapitalName-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -83,8 +83,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a ClubCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi ClubCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a CM_CapitalName address</source>
+        <translation>Allekirjoita viesti osoittaaksesi CM_CapitalName-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,8 +98,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified ClubCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen ClubCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen CM_CapitalName-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -266,8 +266,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>ClubCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ClubCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CM_CapitalName-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -360,8 +360,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ClubCoin</source>
-        <translation>Näytä tietoja ClubCoinista</translation>
+        <source>Show information about CM_CapitalName</source>
+        <translation>Näytä tietoja CM_CapitalNameista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -400,12 +400,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a ClubCoin address</source>
-        <translation>Lähetä varoja ClubCoin-osoitteeseen</translation>
+        <source>Send coins to a CM_CapitalName address</source>
+        <translation>Lähetä varoja CM_CapitalName-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for ClubCoin</source>
+        <source>Modify configuration options for CM_CapitalName</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -446,8 +446,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>ClubCoin</source>
-        <translation>ClubCoin</translation>
+        <source>CM_CapitalName</source>
+        <translation>CM_CapitalName</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -456,8 +456,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About ClubCoin</source>
-        <translation>&amp;Tietoa ClubCoinista</translation>
+        <source>&amp;About CM_CapitalName</source>
+        <translation>&amp;Tietoa CM_CapitalNameista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -508,13 +508,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>ClubCoin client</source>
-        <translation>ClubCoin-asiakasohjelma</translation>
+        <source>CM_CapitalName client</source>
+        <translation>CM_CapitalName-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ClubCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys ClubCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä ClubCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to CM_CapitalName network</source>
+        <translation><numerusform>%n aktiivinen yhteys CM_CapitalName-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä CM_CapitalName-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -607,8 +607,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ClubCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä ClubCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä CM_CapitalName-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -730,8 +730,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. ClubCoin can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. ClubCoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. CM_CapitalName-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -1064,8 +1064,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ClubCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty ClubCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty CM_CapitalName-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1083,8 +1083,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>ClubCoin-Qt</source>
-        <translation>ClubCoin-Qt</translation>
+        <source>CM_CapitalName-Qt</source>
+        <translation>CM_CapitalName-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1156,13 +1156,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ClubCoin after logging in to the system.</source>
-        <translation>Käynnistä ClubCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start CM_CapitalName after logging in to the system.</source>
+        <translation>Käynnistä CM_CapitalName-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ClubCoin on system login</source>
-        <translation>%Käynnistä ClubCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start CM_CapitalName on system login</source>
+        <translation>%Käynnistä CM_CapitalName-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1171,8 +1171,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ClubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa ClubCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa CM_CapitalName-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ClubCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä ClubCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
+        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä CM_CapitalName-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ClubCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta ClubCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta CM_CapitalName-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1323,8 +1323,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ClubCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta ClubCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting CM_CapitalName.</source>
+        <translation>Tämä asetus tulee voimaan vasta CM_CapitalName-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1342,8 +1342,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ClubCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti ClubCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti CM_CapitalName-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1584,8 +1584,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ClubCoin-Qt help message to get a list with possible ClubCoin command-line options.</source>
-        <translation>Näytä ClubCoin-Qt:n avustusohje saadaksesi listan käytettävistä ClubCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
+        <translation>Näytä CM_CapitalName-Qt:n avustusohje saadaksesi listan käytettävistä CM_CapitalNamein komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1604,13 +1604,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>ClubCoin - Debug window</source>
-        <translation>ClubCoin - Debug-ikkuna</translation>
+        <source>CM_CapitalName - Debug window</source>
+        <translation>CM_CapitalName - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ClubCoin Core</source>
-        <translation>ClubCoinin ydin</translation>
+        <source>CM_CapitalName Core</source>
+        <translation>CM_CapitalNamein ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1619,8 +1619,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ClubCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa ClubCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa CM_CapitalName-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1629,8 +1629,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the ClubCoin RPC console.</source>
-        <translation>Tervetuloa ClubCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the CM_CapitalName RPC console.</source>
+        <translation>Tervetuloa CM_CapitalNamein RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1690,7 +1690,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä ClubCoineja</translation>
+        <translation>Lähetä CM_CapitalNameeja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1823,8 +1823,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ClubCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CM_CapitalName-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1923,8 +1923,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid ClubCoin address</source>
-        <translation>VAROITUS: Epäkelpo ClubCoin-osoite</translation>
+        <source>WARNING: Invalid CM_CapitalName address</source>
+        <translation>VAROITUS: Epäkelpo CM_CapitalName-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1997,8 +1997,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ClubCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CM_CapitalName-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2058,8 +2058,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ClubCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän ClubCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this CM_CapitalName address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän CM_CapitalName-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ClubCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä ClubCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä CM_CapitalName-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2101,8 +2101,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ClubCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä ClubCoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CM_CapitalName-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2111,8 +2111,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ClubCoin signature</source>
-        <translation>Syötä ClubCoin-allekirjoitus</translation>
+        <source>Enter CM_CapitalName signature</source>
+        <translation>Syötä CM_CapitalName-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2690,8 +2690,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>ClubCoin version</source>
-        <translation>ClubCoinin versio</translation>
+        <source>CM_CapitalName version</source>
+        <translation>CM_CapitalNamein versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2749,7 +2749,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2855,8 +2855,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ClubCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, ClubCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, CM_CapitalName ei toimi oikein.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3162,8 +3162,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. ClubCoin is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. ClubCoin-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. CM_CapitalName-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3227,13 +3227,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ClubCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version ClubCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version CM_CapitalName-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ClubCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä ClubCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä CM_CapitalName-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3297,8 +3297,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. ClubCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. ClubCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. CM_CapitalName-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3337,7 +3337,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ClubCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ClubCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

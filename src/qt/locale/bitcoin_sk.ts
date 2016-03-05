@@ -2774,8 +2774,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 15714 alebo testovacia sieť: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: CM_Port alebo testovacia sieť: CM_Port_Testnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2824,8 +2824,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 15715 alebo testovaciasieť: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: CM_RPC alebo testovaciasieť: 25715)</translation>
     </message>
     <message>
         <location line="-17"/>

@@ -54,9 +54,9 @@ public:
         pchMessageStart[1] = 0x35;
         pchMessageStart[2] = 0x42;
         pchMessageStart[3] = 0x05;
-        vAlertPubKey = ParseHex("0486bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
-        nDefaultPort = 18114;
-        nRPCPort = 19114;
+        vAlertPubKey = ParseHex("CM_AlertPubKey");
+        nDefaultPort = CM_Port;
+        nRPCPort = CM_RPC;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -70,8 +70,8 @@ public:
             CTxOut(empty)
           vMerkleTree:  2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614
         */
-        const char* pszTimestamp = "20 Oct 2015 A Bloomberg Run? Drums Are Beating";
-        const uint32_t genesisTimestamp = 1445353519;
+        const char* pszTimestamp = "CM_Headline";
+        const uint32_t genesisTimestamp = CM_GenTimestamp;
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -103,11 +103,11 @@ public:
         }
 */
 
-        genesis.nNonce = 61618576;
+        genesis.nNonce = CM_GenNonce;
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x000001768b08da66b92dede0ea8e7dcb97424f93d7ac2ac59e7a6cf98f20615a"));
-        assert(genesis.hashMerkleRoot == uint256("0x2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614"));
+        assert(hashGenesisBlock == uint256("CM_GenHash"));
+        assert(genesis.hashMerkleRoot == uint256("CM_MerkleHash"));
 
         vSeeds.push_back(CDNSSeedData("seed1.CM_LowerName.io", "seed1.CM_LowerName.io"));
         vSeeds.push_back(CDNSSeedData("seed2.CM_LowerName.io", "seed2.CM_LowerName.io"));
@@ -115,7 +115,7 @@ public:
         vSeeds.push_back(CDNSSeedData("seed4.CM_LowerName.io", "seed4.CM_LowerName.io"));
         vSeeds.push_back(CDNSSeedData("seed5.CM_LowerName.io", "seed5.CM_LowerName.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(28); // appears as "C" in base58
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(CM_Addr_Version); // appears as "C" in base58
         base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
         base58Prefixes[SECRET_KEY] =     list_of(153);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
@@ -155,8 +155,8 @@ public:
         pchMessageStart[3] = 0xef;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("0471dc165db490094d35cde15b1f5d755fa6ad6f2b5ed0f340e3f17f57389c3c2af113a8cbcc885bde73305a553b5640c83021128008ddf882e856336269080496");
-        nDefaultPort = 28114;
-        nRPCPort = 29114;
+        nDefaultPort = CM_Port_Testnet;
+        nRPCPort = CM_RPC_Testnet;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.

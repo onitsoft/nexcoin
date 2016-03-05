@@ -27,7 +27,7 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,      uint256("0x000001768b08da66b92dede0ea8e7dcb97424f93d7ac2ac59e7a6cf98f20615a") ) // genesis
+        ( 0,      uint256("CM_GenHash") ) // genesis
         /*
         ( 1281,   uint256("0x9a29de63b8a16f99b5a37b604e4c642f6c57c045cd8276f3128042faf177a40e") ) // last pow block
         ( 20000,  uint256("0x91e8195d9ff30703972b60b54c5552547d52571d0996a26e09e8b217e682c60b") ) // near production

@@ -2759,8 +2759,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 15714 of testnet: 25714)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: CM_Port of testnet: CM_Port_Testnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2809,8 +2809,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+64"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 15715 of testnet: 25715) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: CM_RPC of testnet: 25715) </translation>
     </message>
     <message>
         <location line="-16"/>

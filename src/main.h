@@ -12,6 +12,7 @@
 #include "net.h"
 #include "script.h"
 #include "scrypt.h"
+#include <math.h>
 
 #include <list>
 
@@ -65,37 +66,10 @@ inline unsigned int GetTargetSpacing(int nHeight) { return 128; } // Targetted b
 
 inline uint64_t GetDynamicBlockHeightPoSAward(uint32_t nHeight) {
     uint32_t current_year = nHeight / ((60 * 60 * 24 * 365) / GetTargetSpacing(0)) + 1;
-
-    if (current_year <= 2) {
-        return 20 * CENT;
-    } else if (current_year <= 4) {
-        return 10 * CENT;
-    } else if (current_year <= 6) {
-        return 5 * CENT;
-    } else if (current_year <= 8) {
-        return (uint64_t)(2.5 * CENT);
-    } else if (current_year <= 10) {
-        return (uint64_t)(1.25 * CENT);
-    } else if (current_year <= 12) {
-        return (uint64_t)(0.75 * CENT);
-    } else if (current_year <= 14) {
-        return (uint64_t)(0.5 * CENT);
-    } else if (current_year <= 15) {
-        return (uint64_t)(0.25 * CENT);
-    }
-    return (uint64_t)(0.00001 * CENT);
-/*
-    Numerically, the calculated awards (for spacing=128) are:
-    height: 0, award: 20000000
-    height: 492750, award: 10000000
-    height: 985500, award: 5000000
-    height: 1478250, award: 2500000
-    height: 1971000, award: 1250000
-    height: 2463750, award: 750000
-    height: 2956500, award: 500000
-    height: 3449250, award: 250000
-    height: 3695625+, award: 10
-*/
+    uint32_t powtotal = 600000;
+    float factor = pow(1.1, current_year);
+    return (uint64_t)(powtotal * factor* CENT);
+    // Increase by 10% every year
 }
 
 

@@ -65,10 +65,11 @@ inline int64_t FutureDrift(int64_t nTime, int nHeight) { return IsProtocolV2(nHe
 inline unsigned int GetTargetSpacing(int nHeight) { return 128; } // Targetted block spacing in seconds. The P2P network should average to it in the long term.
 
 inline uint64_t GetDynamicBlockHeightPoSAward(uint32_t nHeight) {
-    uint32_t current_year = nHeight / ((60 * 60 * 24 * 365) / GetTargetSpacing(0)) + 1;
+    long double current_year = nHeight / ((60 * 60 * 24 * 365) / GetTargetSpacing(0)) + 1;
     uint32_t powtotal = 600000;
-    float factor = pow(1.1f, current_year);
-    return (uint64_t)(powtotal * factor* CENT);
+    long double multiplier = 1.1;
+    float factor = pow(multiplier, current_year);
+    return (uint64_t)(powtotal * factor * CENT);
     // Increase by 10% every year
 }
 

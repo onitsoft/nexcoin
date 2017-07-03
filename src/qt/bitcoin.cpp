@@ -119,7 +119,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. NexchangeCoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(CM_LowerName);
+    Q_INIT_RESOURCE(nexchangecoin);
     QApplication app(argc, argv);
 
     // Do this early as we don't want to bother initializing if we are just calling IPC
@@ -178,7 +178,7 @@ int main(int argc, char *argv[])
     {
         // This message can not be translated, as translation is not initialized yet
         // (which not yet possible because lang=XX can be overridden in bitcoin.conf in the data directory)
-        QMessageBox::critical(0, "CM_CapitalName",
+        QMessageBox::critical(0, "NexchangeCoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -186,12 +186,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("CM_CapitalName");
+    app.setOrganizationName("NexchangeCoin");
     //XXX app.setOrganizationDomain("");
     if(GetBoolArg("-testnet", false)) // Separate UI settings for testnet
-        app.setApplicationName("CM_CapitalName-Qt-testnet");
+        app.setApplicationName("NexchangeCoin-Qt-testnet");
     else
-        app.setApplicationName("CM_CapitalName-Qt");
+        app.setApplicationName("NexchangeCoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

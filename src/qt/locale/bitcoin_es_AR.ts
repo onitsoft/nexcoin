@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About BlackCoin</source>
-        <translation>Sobre CM_CapitalName</translation>
+        <translation>Sobre NexchangeCoin</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -2726,7 +2726,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 8228 or testnet: 18228)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2776,7 +2776,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+63"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8229 or testnet: 25715)</source>
         <translation type="unfinished"/>
     </message>
     <message>

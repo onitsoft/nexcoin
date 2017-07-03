@@ -19,56 +19,56 @@ $(LIBLEVELDB) $(LIBMEMENV):
           OPT="$(AM_CXXFLAGS) $(PIE_FLAGS) $(CXXFLAGS) $(AM_CPPFLAGS) $(CPPFLAGS) -D__STDC_LIMIT_MACROS"
 endif
 
-CM_UpperName_CONFIG_INCLUDES=-I$(builddir)/config
-CM_UpperName_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS) $(CRYPTO_CFLAGS) $(SSL_CFLAGS)
+NEXCHANGECOIN_CONFIG_INCLUDES=-I$(builddir)/config
+NEXCHANGECOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS) $(CRYPTO_CFLAGS) $(SSL_CFLAGS)
 
-LIBCM_UpperName_SERVER=libCM_LowerName_server.a
-LIBCM_UpperName_WALLET=libCM_LowerName_wallet.a
-LIBCM_UpperName_COMMON=libCM_LowerName_common.a
-LIBCM_UpperName_CLI=libCM_LowerName_cli.a
-LIBCM_UpperName_UTIL=libCM_LowerName_util.a
-LIBCM_UpperName_CRYPTO=crypto/libCM_LowerName_crypto.a
-LIBCM_UpperNameQT=qt/libCM_LowerNameqt.a
+LIBNEXCHANGECOIN_SERVER=libnexchangecoin_server.a
+LIBNEXCHANGECOIN_WALLET=libnexchangecoin_wallet.a
+LIBNEXCHANGECOIN_COMMON=libnexchangecoin_common.a
+LIBNEXCHANGECOIN_CLI=libnexchangecoin_cli.a
+LIBNEXCHANGECOIN_UTIL=libnexchangecoin_util.a
+LIBNEXCHANGECOIN_CRYPTO=crypto/libnexchangecoin_crypto.a
+LIBNEXCHANGECOINQT=qt/libnexchangecoinqt.a
 
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES = \
-  crypto/libCM_LowerName_crypto.a \
-  libCM_LowerName_util.a \
-  libCM_LowerName_common.a \
-  libCM_LowerName_server.a \
-  libCM_LowerName_cli.a
+  crypto/libnexchangecoin_crypto.a \
+  libnexchangecoin_util.a \
+  libnexchangecoin_common.a \
+  libnexchangecoin_server.a \
+  libnexchangecoin_cli.a
 if ENABLE_WALLET
-CM_UpperName_INCLUDES += $(BDB_CPPFLAGS)
-#EXTRA_LIBRARIES += libCM_LowerName_wallet.a
+NEXCHANGECOIN_INCLUDES += $(BDB_CPPFLAGS)
+#EXTRA_LIBRARIES += libnexchangecoin_wallet.a
 endif
 if ENABLE_ZMQ
-#EXTRA_LIBRARIES += libCM_LowerName_zmq.a
+#EXTRA_LIBRARIES += libnexchangecoin_zmq.a
 endif
 
-if BUILD_CM_UpperName_LIBS
-lib_LTLIBRARIES = libCM_LowerNameconsensus.la
-LIBCM_UpperName_CONSENSUS=libCM_LowerNameconsensus.la
+if BUILD_NEXCHANGECOIN_LIBS
+lib_LTLIBRARIES = libnexchangecoinconsensus.la
+LIBNEXCHANGECOIN_CONSENSUS=libnexchangecoinconsensus.la
 else
-LIBCM_UpperName_CONSENSUS=
+LIBNEXCHANGECOIN_CONSENSUS=
 endif
 
 bin_PROGRAMS =
 TESTS =
 BENCHMARKS =
 
-if BUILD_CM_UpperNameD
-  bin_PROGRAMS += CM_LowerNamed
+if BUILD_NEXCHANGECOIND
+  bin_PROGRAMS += nexchangecoind
 endif
 
-if BUILD_CM_UpperName_UTILS
-#  bin_PROGRAMS += CM_LowerName-cli CM_LowerName-tx
+if BUILD_NEXCHANGECOIN_UTILS
+#  bin_PROGRAMS += nexchangecoin-cli nexchangecoin-tx
 #   these don't exist yet
 endif
 
 .PHONY: FORCE
-# CM_LowerName core #
-CM_UpperName_CORE_H = \
+# nexchangecoin core #
+NEXCHANGECOIN_CORE_H = \
   addrman.h \
   alert.h \
   allocators.h \
@@ -133,13 +133,13 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh $(abs_top_builddir)/src/obj/build.h \
 	  $(abs_top_srcdir)
-libCM_LowerName_util_a-clientversion.$(OBJEXT): obj/build.h
+libnexchangecoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between CM_LowerNamed and CM_LowerName-qt
+# server: shared between nexchangecoind and nexchangecoin-qt
 # For now we REQUIRE the wallet sources for building. XXX
-libCM_LowerName_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
-libCM_LowerName_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS) -I$(srcdir)/leveldb/helpers/
-libCM_LowerName_server_a_SOURCES = \
+libnexchangecoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
+libnexchangecoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS) -I$(srcdir)/leveldb/helpers/
+libnexchangecoin_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   checkpoints.cpp \
@@ -167,15 +167,15 @@ libCM_LowerName_server_a_SOURCES = \
   txmempool.cpp \
   wallet.cpp \
   walletdb.cpp \
-  $(CM_UpperName_CORE_H)
+  $(NEXCHANGECOIN_CORE_H)
 
 
-# wallet: shared between CM_LowerNamed and CM_LowerName-qt, but only linked
+# wallet: shared between nexchangecoind and nexchangecoin-qt, but only linked
 # when wallet enabled
 # Including the leveldb helpers directly is definitely hacky, but it works for now.
-libCM_LowerName_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-libCM_LowerName_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS) -I$(srcdir)/leveldb/helpers/
-libCM_LowerName_wallet_a_SOURCES = \
+libnexchangecoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+libnexchangecoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS) -I$(srcdir)/leveldb/helpers/
+libnexchangecoin_wallet_a_SOURCES = \
   crypter.cpp \
   db.cpp \
   rpcdump.cpp \
@@ -184,17 +184,17 @@ libCM_LowerName_wallet_a_SOURCES = \
   rpcwallet.cpp \
   wallet.cpp \
   scrypt.cpp \
-  $(CM_UpperName_CORE_H)
+  $(NEXCHANGECOIN_CORE_H)
 
 # crypto primitives library
-crypto_libCM_LowerName_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_CONFIG_INCLUDES)
-crypto_libCM_LowerName_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libCM_LowerName_crypto_a_SOURCES = 
+crypto_libnexchangecoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_CONFIG_INCLUDES)
+crypto_libnexchangecoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+crypto_libnexchangecoin_crypto_a_SOURCES = 
 
-# common: shared between CM_LowerNamed, and CM_LowerName-qt and non-server tools
-libCM_LowerName_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-libCM_LowerName_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libCM_LowerName_common_a_SOURCES = \
+# common: shared between nexchangecoind, and nexchangecoin-qt and non-server tools
+libnexchangecoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+libnexchangecoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnexchangecoin_common_a_SOURCES = \
   chainparams.cpp \
   core.cpp \
   hash.cpp \
@@ -203,119 +203,119 @@ libCM_LowerName_common_a_SOURCES = \
   netbase.cpp \
   protocol.cpp \
   script.cpp \
-  $(CM_UpperName_CORE_H)
+  $(NEXCHANGECOIN_CORE_H)
 
 # util: shared between all executables.
 # This library *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
-libCM_LowerName_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-libCM_LowerName_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libCM_LowerName_util_a_SOURCES = \
+libnexchangecoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+libnexchangecoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnexchangecoin_util_a_SOURCES = \
   version.cpp \
   rpcprotocol.cpp \
   sync.cpp \
   util.cpp \
-  $(CM_UpperName_CORE_H)
+  $(NEXCHANGECOIN_CORE_H)
 
 if GLIBC_BACK_COMPAT
-#libCM_LowerName_util_a_SOURCES += compat/glibc_compat.cpp
+#libnexchangecoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between CM_LowerName-cli and CM_LowerName-qt
-libCM_LowerName_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-libCM_LowerName_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libCM_LowerName_cli_a_SOURCES = \
+# cli: shared between nexchangecoin-cli and nexchangecoin-qt
+libnexchangecoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+libnexchangecoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnexchangecoin_cli_a_SOURCES = \
   rpcclient.cpp \
-  $(CM_UpperName_CORE_H)
+  $(NEXCHANGECOIN_CORE_H)
 
-nodist_libCM_LowerName_util_a_SOURCES = $(srcdir)/obj/build.h
+nodist_libnexchangecoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# CM_LowerNamed binary #
-CM_LowerNamed_SOURCES = bitcoind.cpp
-CM_LowerNamed_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-CM_LowerNamed_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-CM_LowerNamed_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# nexchangecoind binary #
+nexchangecoind_SOURCES = bitcoind.cpp
+nexchangecoind_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+nexchangecoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nexchangecoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-#CM_LowerNamed_SOURCES += CM_LowerNamed-res.rc
+#nexchangecoind_SOURCES += nexchangecoind-res.rc
 endif
 
-CM_LowerNamed_LDADD = \
-  $(LIBCM_UpperName_SERVER) \
-  $(LIBCM_UpperName_COMMON) \
+nexchangecoind_LDADD = \
+  $(LIBNEXCHANGECOIN_SERVER) \
+  $(LIBNEXCHANGECOIN_COMMON) \
   $(LIBUNIVALUE) \
-  $(LIBCM_UpperName_UTIL) \
+  $(LIBNEXCHANGECOIN_UTIL) \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 # retired LDADD
-# LIBCM_UpperName_CRYPTO
+# LIBNEXCHANGECOIN_CRYPTO
 
 if ENABLE_ZMQ
-CM_LowerNamed_LDADD += $(LIBCM_UpperName_ZMQ) $(ZMQ_LIBS)
+nexchangecoind_LDADD += $(LIBNEXCHANGECOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-#CM_LowerNamed_LDADD += libCM_LowerName_wallet.a
+#nexchangecoind_LDADD += libnexchangecoin_wallet.a
 endif
 
-CM_LowerNamed_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+nexchangecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# CM_LowerName-cli binary #
-CM_LowerName_cli_SOURCES = CM_LowerName-cli.cpp
-CM_LowerName_cli_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES) $(EVENT_CFLAGS)
-CM_LowerName_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-CM_LowerName_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# nexchangecoin-cli binary #
+nexchangecoin_cli_SOURCES = nexchangecoin-cli.cpp
+nexchangecoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES) $(EVENT_CFLAGS)
+nexchangecoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nexchangecoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-CM_LowerName_cli_SOURCES += CM_LowerName-cli-res.rc
+nexchangecoin_cli_SOURCES += nexchangecoin-cli-res.rc
 endif
 
-CM_LowerName_cli_LDADD = \
-  $(LIBCM_UpperName_CLI) \
+nexchangecoin_cli_LDADD = \
+  $(LIBNEXCHANGECOIN_CLI) \
   $(LIBUNIVALUE) \
-  $(LIBCM_UpperName_UTIL)
+  $(LIBNEXCHANGECOIN_UTIL)
 
-CM_LowerName_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+nexchangecoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# CM_LowerName-tx binary #
-CM_LowerName_tx_SOURCES = CM_LowerName-tx.cpp
-CM_LowerName_tx_CPPFLAGS = $(AM_CPPFLAGS) $(CM_UpperName_INCLUDES)
-CM_LowerName_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-CM_LowerName_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# nexchangecoin-tx binary #
+nexchangecoin_tx_SOURCES = nexchangecoin-tx.cpp
+nexchangecoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(NEXCHANGECOIN_INCLUDES)
+nexchangecoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+nexchangecoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-CM_LowerName_tx_SOURCES += CM_LowerName-tx-res.rc
+nexchangecoin_tx_SOURCES += nexchangecoin-tx-res.rc
 endif
 
-CM_LowerName_tx_LDADD = \
+nexchangecoin_tx_LDADD = \
   $(LIBUNIVALUE) \
-  $(LIBCM_UpperName_COMMON) \
-  $(LIBCM_UpperName_UTIL) \
-  $(LIBCM_UpperName_CRYPTO) \
+  $(LIBNEXCHANGECOIN_COMMON) \
+  $(LIBNEXCHANGECOIN_UTIL) \
+  $(LIBNEXCHANGECOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-CM_LowerName_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+nexchangecoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-# CM_LowerNameconsensus library #
-if BUILD_CM_UpperName_LIBS
+# nexchangecoinconsensus library #
+if BUILD_NEXCHANGECOIN_LIBS
 include_HEADERS =
-libCM_LowerNameconsensus_la_SOURCES = \
+libnexchangecoinconsensus_la_SOURCES = \
   hash.cpp \
   script.cpp \
   scrypt.cpp
 
 if GLIBC_BACK_COMPAT
-#  libCM_LowerNameconsensus_la_SOURCES += compat/glibc_compat.cpp
+#  libnexchangecoinconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libCM_LowerNameconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libCM_LowerNameconsensus_la_LIBADD = $(LIBSECP256K1)
-libCM_LowerNameconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -DBUILD_CM_UpperName_INTERNAL
-libCM_LowerNameconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libnexchangecoinconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libnexchangecoinconsensus_la_LIBADD = $(LIBSECP256K1)
+libnexchangecoinconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -DBUILD_NEXCHANGECOIN_INTERNAL
+libnexchangecoinconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

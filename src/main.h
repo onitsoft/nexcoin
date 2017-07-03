@@ -51,8 +51,8 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-static const int LAST_POW_BLOCK = CM_LastPoW;
-static const int POW_BLOCK_REWARD = CM_PoWReward;
+static const int LAST_POW_BLOCK = 6;
+static const int POW_BLOCK_REWARD = 100000;
 
 inline bool IsProtocolV1RetargetingFixed(int nHeight) { return true; }
 inline bool IsProtocolV2(int nHeight) { return true; }

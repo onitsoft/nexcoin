@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CM_CapitalName</source>
-        <translation>O CM_CapitalNamee</translation>
+        <source>About NexchangeCoin</source>
+        <translation>O NexchangeCoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CM_CapitalName&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;NexchangeCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NexchangeCoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The CM_CapitalName developers</source>
+Copyright © 2015 The NexchangeCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The CM_CapitalName developers</translation>
+Copyright © 2015 The NexchangeCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše CM_CapitalName adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your NexchangeCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše NexchangeCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -82,8 +82,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CM_CapitalName address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CM_CapitalName adresu</translation>
+        <source>Sign a message to prove you own a NexchangeCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto NexchangeCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CM_CapitalName adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified NexchangeCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou NexchangeCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CM_CapitalName sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>NexchangeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>NexchangeCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -359,8 +359,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CM_CapitalName</source>
-        <translation>Zobraziť informácie o CM_CapitalName</translation>
+        <source>Show information about NexchangeCoin</source>
+        <translation>Zobraziť informácie o NexchangeCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -399,13 +399,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CM_CapitalName address</source>
-        <translation>Poslať mince na CM_CapitalName adresu</translation>
+        <source>Send coins to a NexchangeCoin address</source>
+        <translation>Poslať mince na NexchangeCoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CM_CapitalName</source>
-        <translation>Upraviť možnosti konfigurácie pre CM_CapitalName</translation>
+        <source>Modify configuration options for NexchangeCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre NexchangeCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -445,8 +445,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CM_CapitalName</source>
-        <translation>CM_CapitalName</translation>
+        <source>NexchangeCoin</source>
+        <translation>NexchangeCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -455,8 +455,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CM_CapitalName</source>
-        <translation>&amp;O CM_CapitalName</translation>
+        <source>&amp;About NexchangeCoin</source>
+        <translation>&amp;O NexchangeCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -507,13 +507,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CM_CapitalName client</source>
-        <translation>CM_CapitalName klient</translation>
+        <source>NexchangeCoin client</source>
+        <translation>NexchangeCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CM_CapitalName network</source>
-        <translation><numerusform>%n aktívne spojenie s CM_CapitalName sieťov</numerusform><numerusform>%n aktívnych spojení s CM_CapitalName sieťov</numerusform><numerusform>%n aktívnych spojení s CM_CapitalName sieťou</numerusform></translation>
+        <source>%n active connection(s) to NexchangeCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s NexchangeCoin sieťov</numerusform><numerusform>%n aktívnych spojení s NexchangeCoin sieťov</numerusform><numerusform>%n aktívnych spojení s NexchangeCoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -606,8 +606,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou CM_CapitalName adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NexchangeCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou NexchangeCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -729,8 +729,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. CM_CapitalName už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. NexchangeCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. NexchangeCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CM_CapitalName adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NexchangeCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou NexchangeCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CM_CapitalName-Qt</source>
-        <translation>CM_CapitalName-Qt</translation>
+        <source>NexchangeCoin-Qt</source>
+        <translation>NexchangeCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CM_CapitalName after logging in to the system.</source>
-        <translation>Automaticky spustiť CM_CapitalName po prihlásení sa do systému.</translation>
+        <source>Automatically start NexchangeCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť NexchangeCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CM_CapitalName on system login</source>
-        <translation>&amp;Spustiť CM_CapitalName pri prihlásení do systému</translation>
+        <source>&amp;Start NexchangeCoin on system login</source>
+        <translation>&amp;Spustiť NexchangeCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1170,8 +1170,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta CM_CapitalName na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the NexchangeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta NexchangeCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti CM_CapitalName cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the NexchangeCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti NexchangeCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní CM_CapitalName.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1322,8 +1322,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní CM_CapitalName.</translation>
+        <source>This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1341,8 +1341,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CM_CapitalName po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NexchangeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou NexchangeCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1416,7 +1416,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start blackcoin: click-to-pay handler</source>
-        <translation>CM_CapitalName sa nedá spustiť: click-to-pay handler</translation>
+        <translation>NexchangeCoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1583,8 +1583,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
-        <translation>Zobraziť CM_CapitalName-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku CM_CapitalName.</translation>
+        <source>Show the NexchangeCoin-Qt help message to get a list with possible NexchangeCoin command-line options.</source>
+        <translation>Zobraziť NexchangeCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1603,13 +1603,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CM_CapitalName - Debug window</source>
-        <translation>CM_CapitalName - Ladiace okno</translation>
+        <source>NexchangeCoin - Debug window</source>
+        <translation>NexchangeCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CM_CapitalName Core</source>
-        <translation>Jadro CM_CapitalName</translation>
+        <source>NexchangeCoin Core</source>
+        <translation>Jadro NexchangeCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1618,8 +1618,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte CM_CapitalName súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the NexchangeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte NexchangeCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1628,8 +1628,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CM_CapitalName RPC console.</source>
-        <translation>Vitajte v konzole CM_CapitalName RPC.</translation>
+        <source>Welcome to the NexchangeCoin RPC console.</source>
+        <translation>Vitajte v konzole NexchangeCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1822,8 +1822,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CM_CapitalName adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte NexchangeCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1922,8 +1922,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CM_CapitalName address</source>
-        <translation>UPOZORNENIE: Neplatná CM_CapitalName adresa</translation>
+        <source>WARNING: Invalid NexchangeCoin address</source>
+        <translation>UPOZORNENIE: Neplatná NexchangeCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1996,8 +1996,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CM_CapitalName adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte NexchangeCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2057,8 +2057,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CM_CapitalName address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CM_CapitalName adresu</translation>
+        <source>Sign the message to prove you own this NexchangeCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto NexchangeCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2089,8 +2089,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou CM_CapitalName adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified NexchangeCoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou NexchangeCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2100,8 +2100,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CM_CapitalName adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte NexchangeCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2110,8 +2110,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CM_CapitalName signature</source>
-        <translation>Zadajte CM_CapitalName podpis</translation>
+        <source>Enter NexchangeCoin signature</source>
+        <translation>Zadajte NexchangeCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2689,8 +2689,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CM_CapitalName version</source>
-        <translation>CM_CapitalName verzia</translation>
+        <source>NexchangeCoin version</source>
+        <translation>NexchangeCoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2748,7 +2748,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NexchangeCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
@@ -2759,7 +2759,7 @@ rpcpassword=%s
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;NexchangeCoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2774,8 +2774,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: CM_Port alebo testovacia sieť: CM_Port_Testnet)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8228 or testnet: 18228)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 8228 alebo testovacia sieť: 18228)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2824,8 +2824,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: CM_RPC alebo testovaciasieť: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8229 or testnet: 25715)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 8229 alebo testovaciasieť: 25715)</translation>
     </message>
     <message>
         <location line="-17"/>
@@ -2864,8 +2864,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CM_CapitalName nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NexchangeCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny NexchangeCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3171,8 +3171,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. CM_CapitalName sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. NexchangeCoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. NexchangeCoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3236,13 +3236,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CM_CapitalName</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NexchangeCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu NexchangeCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CM_CapitalName k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart NexchangeCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte NexchangeCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3306,8 +3306,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CM_CapitalName je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. NexchangeCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. NexchangeCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3346,8 +3346,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CM_CapitalName upozornenie&quot
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. CM_CapitalName je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. NexchangeCoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. NexchangeCoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

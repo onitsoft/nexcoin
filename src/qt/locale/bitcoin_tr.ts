@@ -3,23 +3,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CM_CapitalName</source>
-        <translation>CM_CapitalName Hakkında</translation>
+        <source>About NexchangeCoin</source>
+        <translation>NexchangeCoin Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CM_CapitalName&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;NexchangeCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NexchangeCoin&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The CM_CapitalName developers</source>
+Copyright © 2015 The NexchangeCoin developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2014 CM_CapitalName geliştiricileri</translation>
+Telif Hakkı © 2014 NexchangeCoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için CM_CapitalName adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your NexchangeCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için NexchangeCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,8 +81,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CM_CapitalName address</source>
-        <translation>Bir CM_CapitalName adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a NexchangeCoin address</source>
+        <translation>Bir NexchangeCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
-        <translation>Mesajın, belirli bir CM_CapitalName adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified NexchangeCoin address</source>
+        <translation>Mesajın, belirli bir NexchangeCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,8 +264,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CM_CapitalName, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>NexchangeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>NexchangeCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -358,8 +358,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CM_CapitalName</source>
-        <translation>CM_CapitalName hakkındaki bilgiyi göster</translation>
+        <source>Show information about NexchangeCoin</source>
+        <translation>NexchangeCoin hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -398,13 +398,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CM_CapitalName address</source>
-        <translation>Bir CM_CapitalName adresine coin gönder</translation>
+        <source>Send coins to a NexchangeCoin address</source>
+        <translation>Bir NexchangeCoin adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CM_CapitalName</source>
-        <translation>CM_CapitalName yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for NexchangeCoin</source>
+        <translation>NexchangeCoin yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -444,8 +444,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CM_CapitalName</source>
-        <translation>CM_CapitalName</translation>
+        <source>NexchangeCoin</source>
+        <translation>NexchangeCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -454,8 +454,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CM_CapitalName</source>
-        <translation>CM_CapitalName &amp;Hakkında</translation>
+        <source>&amp;About NexchangeCoin</source>
+        <translation>NexchangeCoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -506,13 +506,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CM_CapitalName client</source>
-        <translation>CM_CapitalName istemcisi</translation>
+        <source>NexchangeCoin client</source>
+        <translation>NexchangeCoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CM_CapitalName network</source>
-        <translation><numerusform>CM_CapitalName ağına %n etkin bağlantı</numerusform><numerusform>CM_CapitalName ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to NexchangeCoin network</source>
+        <translation><numerusform>NexchangeCoin ağına %n etkin bağlantı</numerusform><numerusform>NexchangeCoin ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -606,8 +606,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir CM_CapitalName adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NexchangeCoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir NexchangeCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -729,8 +729,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. CM_CapitalName artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. NexchangeCoin can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. NexchangeCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
-        <translation>Girilen %1 adresi, geçerli bir CM_CapitalName adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NexchangeCoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir NexchangeCoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CM_CapitalName-Qt</source>
-        <translation>CM_CapitalName-Qt</translation>
+        <source>NexchangeCoin-Qt</source>
+        <translation>NexchangeCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CM_CapitalName after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra CM_CapitalName&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start NexchangeCoin after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra NexchangeCoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CM_CapitalName on system login</source>
-        <translation>Sisteme girişte CM_CapitalName&apos;i &amp;başlat</translation>
+        <source>&amp;Start NexchangeCoin on system login</source>
+        <translation>Sisteme girişte NexchangeCoin&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1170,8 +1170,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide CM_CapitalName istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the NexchangeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide NexchangeCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>CM_CapitalName ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+        <source>Connect to the NexchangeCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>NexchangeCoin ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, CM_CapitalName yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, NexchangeCoin yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1322,8 +1322,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>Bu ayar, CM_CapitalName&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>Bu ayar, NexchangeCoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1341,8 +1341,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak CM_CapitalName ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NexchangeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak NexchangeCoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1583,8 +1583,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
-        <translation>Muhtemel CM_CapitalName komut satırı seçeneklerinin bir listesini getirmek için CM_CapitalName-Qt yardım mesajını göster</translation>
+        <source>Show the NexchangeCoin-Qt help message to get a list with possible NexchangeCoin command-line options.</source>
+        <translation>Muhtemel NexchangeCoin komut satırı seçeneklerinin bir listesini getirmek için NexchangeCoin-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1603,13 +1603,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>CM_CapitalName - Debug window</source>
-        <translation>CM_CapitalName - Hata ayıklama penceresi</translation>
+        <source>NexchangeCoin - Debug window</source>
+        <translation>NexchangeCoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CM_CapitalName Core</source>
-        <translation>CM_CapitalName Core</translation>
+        <source>NexchangeCoin Core</source>
+        <translation>NexchangeCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1618,8 +1618,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>CM_CapitalName hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the NexchangeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>NexchangeCoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1628,8 +1628,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CM_CapitalName RPC console.</source>
-        <translation>CM_CapitalName RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the NexchangeCoin RPC console.</source>
+        <translation>NexchangeCoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1822,8 +1822,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CM_CapitalName adresi gir (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir NexchangeCoin adresi gir (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1922,8 +1922,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CM_CapitalName address</source>
-        <translation>UYARI: Geçersiz CM_CapitalName adresi</translation>
+        <source>WARNING: Invalid NexchangeCoin address</source>
+        <translation>UYARI: Geçersiz NexchangeCoin adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1996,8 +1996,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CM_CapitalName adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir NexchangeCoin adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2057,8 +2057,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CM_CapitalName address</source>
-        <translation>Bu CM_CapitalName adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this NexchangeCoin address</source>
+        <translation>Bu NexchangeCoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2089,8 +2089,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
-        <translation>Mesajın, belirtilen CM_CapitalName adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified NexchangeCoin address</source>
+        <translation>Mesajın, belirtilen NexchangeCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2100,8 +2100,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CM_CapitalName adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir NexchangeCoin adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2110,8 +2110,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CM_CapitalName signature</source>
-        <translation>CM_CapitalName imzası gir</translation>
+        <source>Enter NexchangeCoin signature</source>
+        <translation>NexchangeCoin imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2689,8 +2689,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CM_CapitalName version</source>
-        <translation>CM_CapitalName versiyonu</translation>
+        <source>NexchangeCoin version</source>
+        <translation>NexchangeCoin versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2748,7 +2748,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NexchangeCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2764,8 +2764,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
-        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: CM_Port veya testnet: CM_Port_Testnet)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8228 or testnet: 18228)</source>
+        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 8228 veya testnet: 18228)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2814,8 +2814,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
-        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: CM_RPC veya testnet: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8229 or testnet: 25715)</source>
+        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 8229 veya testnet: 25715)</translation>
     </message>
     <message>
         <location line="-17"/>
@@ -2854,8 +2854,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, CM_CapitalName düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NexchangeCoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, NexchangeCoin düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3161,8 +3161,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. CM_CapitalName kapatılıyor.</translation>
+        <source>Initialization sanity check failed. NexchangeCoin is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. NexchangeCoin kapatılıyor.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3226,13 +3226,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir CM_CapitalName versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NexchangeCoin</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir NexchangeCoin versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için CM_CapitalName&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart NexchangeCoin to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için NexchangeCoin&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3296,8 +3296,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. CM_CapitalName muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. NexchangeCoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. NexchangeCoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3336,7 +3336,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NexchangeCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

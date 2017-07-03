@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "CM_LowerName";
+    const char* pszModule = "nexchangecoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CM_CapitalName
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CM_CapitalName
-    // Mac: ~/Library/Application Support/CM_CapitalName
-    // Unix: ~/.CM_LowerName
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\NexchangeCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\NexchangeCoin
+    // Mac: ~/Library/Application Support/NexchangeCoin
+    // Unix: ~/.nexchangecoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "CM_CapitalName";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "NexchangeCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "CM_CapitalName";
+    return pathRet / "NexchangeCoin";
 #else
     // Unix
-    return pathRet / ".CM_LowerName";
+    return pathRet / ".nexchangecoin";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "CM_LowerName.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "nexchangecoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "CM_LowerNamed.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "nexchangecoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

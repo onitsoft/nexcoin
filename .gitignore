@@ -4,7 +4,7 @@
 
 *.exe
 src/bitcoin
-src/CM_LowerNamed
+src/nexchangecoind
 src/bitcoin-cli
 src/bitcoin-tx
 src/test/test_bitcoin
@@ -76,8 +76,8 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-CM_LowerName-qt
-CM_CapitalName-Qt.app
+nexchangecoin-qt
+NexchangeCoin-Qt.app
 
 # Unit-tests
 Makefile.test

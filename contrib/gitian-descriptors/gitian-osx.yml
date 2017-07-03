@@ -1,5 +1,5 @@
 ---
-name: "CM_LowerName-osx-1.0.3"
+name: "nexchangecoin-osx-1.0.3"
 enable_cache: true
 suites:
 - "trusty"
@@ -23,7 +23,7 @@ packages:
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
 - "url": "https://github.com/realspencerdupre/PoS_Sourcecoin.git"
-  "dir": "CM_CapitalName"
+  "dir": "NexchangeCoin"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -70,7 +70,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd CM_CapitalName
+  cd NexchangeCoin
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -85,14 +85,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo CM_LowerName-*.tar.gz`
+  SOURCEDIST=`echo nexchangecoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find CM_LowerName-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find nexchangecoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"
@@ -122,7 +122,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg CM_CapitalName-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg NexchangeCoin-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

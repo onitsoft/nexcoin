@@ -22,7 +22,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "CM_CapitalName cannot be compiled without assertions."
+# error "NexchangeCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -42,7 +42,7 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 
-unsigned int nStakeMinAge = CM_StakeMinAgeHrs * 60 * 60; // 1 hours
+unsigned int nStakeMinAge = 1 * 60 * 60; // 1 hours
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 400;
@@ -75,7 +75,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "CM_CapitalName Signed Message:\n";
+const string strMessageMagic = "NexchangeCoin Signed Message:\n";
 
 extern enum Checkpoints::CPMode CheckpointsMode;
 
@@ -2594,7 +2594,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("CM_LowerName-loadblk");
+    RenameThread("nexchangecoin-loadblk");
 
     CImportingNow imp;
 

@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CM_CapitalName</source>
-        <translation>Sobre CM_CapitalName</translation>
+        <source>About NexchangeCoin</source>
+        <translation>Sobre NexchangeCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CM_CapitalName&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;CM_CapitalName&lt;/b&gt;</translation>
+        <source>&lt;b&gt;NexchangeCoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;NexchangeCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The CM_CapitalName developers</source>
+Copyright © 2015 The NexchangeCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2015 The CM_CapitalName developers</translation>
+Copyright © 2015 The NexchangeCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CM_CapitalName addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de CM_CapitalName per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your NexchangeCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de NexchangeCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CM_CapitalName address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça CM_CapitalName</translation>
+        <source>Sign a message to prove you own a NexchangeCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça NexchangeCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CM_CapitalName address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça CM_CapitalName especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified NexchangeCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça NexchangeCoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CM_CapitalName will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CM_CapitalName tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>NexchangeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>NexchangeCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -354,8 +354,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CM_CapitalName</source>
-        <translation>Mostra informació sobre CM_CapitalName</translation>
+        <source>Show information about NexchangeCoin</source>
+        <translation>Mostra informació sobre NexchangeCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -394,13 +394,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CM_CapitalName address</source>
-        <translation>Enviar monedes a una adreça CM_CapitalName</translation>
+        <source>Send coins to a NexchangeCoin address</source>
+        <translation>Enviar monedes a una adreça NexchangeCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CM_CapitalName</source>
-        <translation>Modificar les opcions de configuració per a CM_CapitalName</translation>
+        <source>Modify configuration options for NexchangeCoin</source>
+        <translation>Modificar les opcions de configuració per a NexchangeCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -440,8 +440,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CM_CapitalName</source>
-        <translation>CM_CapitalName</translation>
+        <source>NexchangeCoin</source>
+        <translation>NexchangeCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CM_CapitalName</source>
-        <translation>&amp;Sobre CM_CapitalName</translation>
+        <source>&amp;About NexchangeCoin</source>
+        <translation>&amp;Sobre NexchangeCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CM_CapitalName client</source>
-        <translation>Client CM_CapitalName</translation>
+        <source>NexchangeCoin client</source>
+        <translation>Client NexchangeCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CM_CapitalName network</source>
-        <translation><numerusform>%n conexió activa a la xarxa CM_CapitalName</numerusform><numerusform>%n conexions actives a la xarxa CM_CapitalName</numerusform></translation>
+        <source>%n active connection(s) to NexchangeCoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa NexchangeCoin</numerusform><numerusform>%n conexions actives a la xarxa NexchangeCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CM_CapitalName address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça CM_CapitalName no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NexchangeCoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça NexchangeCoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CM_CapitalName can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. CM_CapitalName ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. NexchangeCoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. NexchangeCoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CM_CapitalName address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça CM_CapitalName vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NexchangeCoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça NexchangeCoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CM_CapitalName-Qt</source>
-        <translation>CM_CapitalName-Qt</translation>
+        <source>NexchangeCoin-Qt</source>
+        <translation>NexchangeCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CM_CapitalName after logging in to the system.</source>
-        <translation>Inicia automàticament CM_CapitalName després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start NexchangeCoin after logging in to the system.</source>
+        <translation>Inicia automàticament NexchangeCoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CM_CapitalName on system login</source>
-        <translation>&amp;Iniciar CM_CapitalName amb l&apos;inici de sessió</translation>
+        <source>&amp;Start NexchangeCoin on system login</source>
+        <translation>&amp;Iniciar NexchangeCoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CM_CapitalName client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client CM_CapitalName en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the NexchangeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client NexchangeCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1172,8 +1172,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CM_CapitalName network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa CM_CapitalName través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the NexchangeCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa NexchangeCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1247,8 +1247,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar CM_CapitalName.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1314,8 +1314,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CM_CapitalName.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar CM_CapitalName.</translation>
+        <source>This setting will take effect after restarting NexchangeCoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1333,8 +1333,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CM_CapitalName network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa CM_CapitalName després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NexchangeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa NexchangeCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1575,8 +1575,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CM_CapitalName-Qt help message to get a list with possible CM_CapitalName command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de CM_CapitalName-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres CM_CapitalName.</translation>
+        <source>Show the NexchangeCoin-Qt help message to get a list with possible NexchangeCoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de NexchangeCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,13 +1595,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CM_CapitalName - Debug window</source>
-        <translation>CM_CapitalName - Finestra Depuració</translation>
+        <source>NexchangeCoin - Debug window</source>
+        <translation>NexchangeCoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CM_CapitalName Core</source>
-        <translation>Nucli CM_CapitalName</translation>
+        <source>NexchangeCoin Core</source>
+        <translation>Nucli NexchangeCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1610,8 +1610,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CM_CapitalName debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració CM_CapitalName des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the NexchangeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració NexchangeCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1620,8 +1620,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CM_CapitalName RPC console.</source>
-        <translation>Benvingut a la consola RPC de CM_CapitalName.</translation>
+        <source>Welcome to the NexchangeCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de NexchangeCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1814,8 +1814,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CM_CapitalName (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça NexchangeCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1914,8 +1914,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CM_CapitalName address</source>
-        <translation>ADVERTÈNCIA: Direcció CM_CapitalName invàlida</translation>
+        <source>WARNING: Invalid NexchangeCoin address</source>
+        <translation>ADVERTÈNCIA: Direcció NexchangeCoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1988,8 +1988,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CM_CapitalName (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça NexchangeCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2049,8 +2049,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CM_CapitalName address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça CM_CapitalName</translation>
+        <source>Sign the message to prove you own this NexchangeCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça NexchangeCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2081,8 +2081,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CM_CapitalName address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça CM_CapitalName especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified NexchangeCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça NexchangeCoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2092,8 +2092,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CM_CapitalName address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CM_CapitalName (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NexchangeCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça NexchangeCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2102,8 +2102,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CM_CapitalName signature</source>
-        <translation>Introduïu la signatura CM_CapitalName</translation>
+        <source>Enter NexchangeCoin signature</source>
+        <translation>Introduïu la signatura NexchangeCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2681,8 +2681,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CM_CapitalName version</source>
-        <translation>versió CM_CapitalName</translation>
+        <source>NexchangeCoin version</source>
+        <translation>versió NexchangeCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2740,7 +2740,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NexchangeCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2756,8 +2756,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: CM_Port or testnet: CM_Port_Testnet)</source>
-        <translation>Escoltar connexions en &lt;port&gt; (per defecte: CM_Port o testnet: CM_Port_Testnet)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8228 or testnet: 18228)</source>
+        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 8228 o testnet: 18228)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2806,8 +2806,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="+65"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: CM_RPC or testnet: 25715)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: CM_RPC o testnet: 25715)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8229 or testnet: 25715)</source>
+        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 8229 o testnet: 25715)</translation>
     </message>
     <message>
         <location line="-17"/>
@@ -2846,8 +2846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CM_CapitalName Alert&quot; adm
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CM_CapitalName will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni CM_CapitalName no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NexchangeCoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni NexchangeCoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3154,7 +3154,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CM_CapitalName is shutting down.</source>
+        <source>Initialization sanity check failed. NexchangeCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3219,13 +3219,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CM_CapitalName</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de CM_CapitalName</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NexchangeCoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de NexchangeCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CM_CapitalName to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar CM_CapitalName per completar</translation>
+        <source>Wallet needed to be rewritten: restart NexchangeCoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar NexchangeCoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3289,8 +3289,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CM_CapitalName is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. CM_CapitalName probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. NexchangeCoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. NexchangeCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3329,7 +3329,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CM_CapitalName is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NexchangeCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

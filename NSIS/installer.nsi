@@ -8,20 +8,20 @@
 ;--------------------------------
 
 ; The name of the installer
-Name "CM_CapitalName Setup"
-Caption "CM_CapitalName cryptocurrency coin setup"
+Name "NexchangeCoin Setup"
+Caption "NexchangeCoin cryptocurrency coin setup"
 
 ; The file to write
-OutFile "CM_LowerName-setup.exe"
+OutFile "nexchangecoin-setup.exe"
 
 ; The default installation directory
-InstallDir $PROGRAMFILES\CM_CapitalName
+InstallDir $PROGRAMFILES\NexchangeCoin
 
 ; Request application privileges for Windows Vista
 RequestExecutionLevel admin
 
-Icon "CM_LowerName.ico"
-BrandingText "(c) 2015 CM_CapitalName Developers"
+Icon "nexchangecoin.ico"
+BrandingText "(c) 2015 NexchangeCoin Developers"
 
 SetDatablockOptimize on
 
@@ -30,12 +30,12 @@ SetDatablockOptimize on
 ; Pages
 
 Page license
-LicenseData "CM_LowerName-license.rtf"
+LicenseData "nexchangecoin-license.rtf"
 
 Page directory
 Page instfiles
 
-!define MUI_FINISHPAGE_RUN "$INSTDIR\CM_LowerName-qt.exe"
+!define MUI_FINISHPAGE_RUN "$INSTDIR\nexchangecoin-qt.exe"
 
 UninstPage uninstConfirm
 UninstPage instfiles
@@ -50,20 +50,20 @@ Section "" ;No components page, name is not important
   SetOutPath $INSTDIR
   
   ; Put file there
-  File ..\release\CM_LowerName-qt.exe
+  File ..\release\nexchangecoin-qt.exe
   File libwinpthread-1.dll
   
   ; write uninstall strings
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName" "DisplayName" "CM_CapitalName (remove only)"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName" "UninstallString" '"$INSTDIR\cc-uninst.exe"'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\NexchangeCoin" "DisplayName" "NexchangeCoin (remove only)"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\NexchangeCoin" "UninstallString" '"$INSTDIR\cc-uninst.exe"'
   WriteUninstaller "cc-uninst.exe"
   
-  CreateShortcut "$DESKTOP\CM_CapitalName.lnk" "$INSTDIR\CM_LowerName-qt.exe"
+  CreateShortcut "$DESKTOP\NexchangeCoin.lnk" "$INSTDIR\nexchangecoin-qt.exe"
   
 SectionEnd ; end the section
 
 Function .onInstSuccess
-  ExecShell open "$DESKTOP\CM_CapitalName.lnk"
+  ExecShell open "$DESKTOP\NexchangeCoin.lnk"
 FunctionEnd
 
 
@@ -71,15 +71,15 @@ FunctionEnd
 
 ; Uninstaller
 
-UninstallText "This will uninstall CM_CapitalName. Hit next to continue."
-UninstallIcon "CM_LowerName.ico"
+UninstallText "This will uninstall NexchangeCoin. Hit next to continue."
+UninstallIcon "nexchangecoin.ico"
 
 Section "Uninstall"
 
-  Delete "$DESKTOP\CM_CapitalName.lnk"
-  Delete "$INSTDIR\CM_LowerName-qt.exe"
+  Delete "$DESKTOP\NexchangeCoin.lnk"
+  Delete "$INSTDIR\nexchangecoin-qt.exe"
   Delete "$INSTDIR\libwinpthread-1.dll"
   Delete "$INSTDIR\cc-uninst.exe"
   
-  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\CM_CapitalName"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\NexchangeCoin"
 SectionEnd

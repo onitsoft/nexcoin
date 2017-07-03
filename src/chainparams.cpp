@@ -54,24 +54,13 @@ public:
         pchMessageStart[1] = 0x35;
         pchMessageStart[2] = 0x42;
         pchMessageStart[3] = 0x05;
-        vAlertPubKey = ParseHex("CM_AlertPubKey");
-        nDefaultPort = CM_Port;
-        nRPCPort = CM_RPC;
+        vAlertPubKey = ParseHex("04088d3cdb8e76a602e7f0e2b7f77ebf066d7385866a704de187a769e3108bf6ee4d98a5eb90f7656c006c5bdbb4d8b7c096dfa3c7019b52cc18db3121e6f43e9b");
+        nDefaultPort = 8228;
+        nRPCPort = 8229;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
-        // Build the genesis block. Note that the output of the genesis coinbase cannot
-        // be spent as it did not originally exist in the database.
-        /*
-        nNonce is: 61618576
-        Hash is: 000001768b08da66b92dede0ea8e7dcb97424f93d7ac2ac59e7a6cf98f20615a
-        Block is: CBlock(hash=000001768b08da66b92dede0ea8e7dcb97424f93d7ac2ac59e7a6cf98f20615a, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614, nTime=1445353519, nBits=1e0fffff, nNonce=61618576, vtx=1, vchBlockSig=)
-          Coinbase(hash=2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614, nTime=1445353519, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-            CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a2e3230204f63742032303135204120426c6f6f6d626572672052756e3f204472756d73204172652042656174696e67)
-            CTxOut(empty)
-          vMerkleTree:  2da7a0080141ea1b6e32f670af4461801b638ba867241d319c3d590d03d75614
-        */
-        const char* pszTimestamp = "CM_Headline";
-        const uint32_t genesisTimestamp = CM_GenTimestamp;
+        const char* pszTimestamp = "3 July 2017 CoinTelegraph Bitcoin Outputs Stop Growing After 2 Years As Network Relaxes";
+        const uint32_t genesisTimestamp = 1499102185;
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -86,36 +75,32 @@ public:
         genesis.nTime    = genesisTimestamp;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
 
-/*
-        // "mine" the nonce
-        for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
-            if (genesis.nNonce % 1000000 == 0)
-                std::cout << "tried " << genesis.nNonce << " nonces" << std::endl;
-            hashGenesisBlock = genesis.GetHash();
-            unsigned char *b = hashGenesisBlock.end() - 3;
-            if (memcmp(b, "\x01\x00\x00", 3) == 0) {
-                std::cout << "nNonce is: " << genesis.nNonce << std::endl;
-                std::cout << "Hash is: " << genesis.GetHash().ToString() << std::endl;
-                std::cout << "Block is: " << genesis.ToString() << std::endl;
-                abort();
-                break;
-            }
-        }
-*/
 
-        genesis.nNonce = CM_GenNonce;
+        // "mine" the nonce
+        // for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
+        //     if (genesis.nNonce % 1000000 == 0)
+        //         std::cout << "tried " << genesis.nNonce << " nonces" << std::endl;
+        //     hashGenesisBlock = genesis.GetHash();
+        //     unsigned char *b = hashGenesisBlock.end() - 3;
+        //     if (memcmp(b, "\x01\x00\x00", 3) == 0) {
+        //         std::cout << "nNonce is: " << genesis.nNonce << std::endl;
+        //         std::cout << "Hash is: " << genesis.GetHash().ToString() << std::endl;
+        //         std::cout << "Block is: " << genesis.ToString() << std::endl;
+        //         abort();
+        //         break;
+        //     }
+        // }
+
+
+        genesis.nNonce = 10222963;
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("CM_GenHash"));
-        assert(genesis.hashMerkleRoot == uint256("CM_MerkleHash"));
+        assert(hashGenesisBlock == uint256("000001f7f2ae344c8b71eb98f4c2f30cc199948fc34493c652adb9cc901cc743"));
+        assert(genesis.hashMerkleRoot == uint256("6fbda8240472b8b9a4b9e783c2bc3d370e700c48991e898fdaedf9b963e372be"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.CM_LowerName.io", "seed1.CM_LowerName.io"));
-        vSeeds.push_back(CDNSSeedData("seed2.CM_LowerName.io", "seed2.CM_LowerName.io"));
-        vSeeds.push_back(CDNSSeedData("seed3.CM_LowerName.io", "seed3.CM_LowerName.io"));
-        vSeeds.push_back(CDNSSeedData("seed4.CM_LowerName.io", "seed4.CM_LowerName.io"));
-        vSeeds.push_back(CDNSSeedData("seed5.CM_LowerName.io", "seed5.CM_LowerName.io"));
+        vSeeds.push_back(CDNSSeedData("188.166.69.84", "188.166.69.84"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(CM_Addr_Version); // appears as "C" in base58
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(53); // appears as "C" in base58
         base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
         base58Prefixes[SECRET_KEY] =     list_of(153);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
@@ -155,34 +140,35 @@ public:
         pchMessageStart[3] = 0xef;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("0471dc165db490094d35cde15b1f5d755fa6ad6f2b5ed0f340e3f17f57389c3c2af113a8cbcc885bde73305a553b5640c83021128008ddf882e856336269080496");
-        nDefaultPort = CM_Port_Testnet;
-        nRPCPort = CM_RPC_Testnet;
+        nDefaultPort = 18228;
+        nRPCPort = 18229;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
 
-/*
-        // "mine" the nonce
-        for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
-            if (genesis.nNonce % 1000000 == 0)
-                std::cout << "tried " << genesis.nNonce << " nonces" << std::endl;
-            hashGenesisBlock = genesis.GetHash();
-            unsigned char *b = hashGenesisBlock.end() - 2;
-            if (memcmp(b, "\x00\x00", 2) == 0) {
-                std::cout << "testnet nNonce is: " << genesis.nNonce << std::endl;
-                std::cout << "Hash is: " << genesis.GetHash().ToString() << std::endl;
-                std::cout << "Block is: " << genesis.ToString() << std::endl;
-                abort();
-                break;
-            }
-        }
-*/
 
-        genesis.nNonce = 96540;
+        // "mine" the nonce
+        // std::cout << "Testnet mining " << genesis.nTime << "\n";
+        // for (genesis.nNonce = 0; genesis.nNonce < 0xffffffff; genesis.nNonce++) {
+        //     if (genesis.nNonce % 1000000 == 0)
+        //         std::cout << "tried " << genesis.nNonce << " nonces" << std::endl;
+        //     hashGenesisBlock = genesis.GetHash();
+        //     unsigned char *b = hashGenesisBlock.end() - 2;
+        //     if (memcmp(b, "\x00\x00", 2) == 0) {
+        //         std::cout << "testnet nNonce is: " << genesis.nNonce << std::endl;
+        //         std::cout << "Hash is: " << genesis.GetHash().ToString() << std::endl;
+        //         std::cout << "Block is: " << genesis.ToString() << std::endl;
+        //         abort();
+        //         break;
+        //     }
+        // }
+
+
+        genesis.nNonce = 163466;
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x0000fb7faf0608bb189df6bfde6c17b7d9bb337056bb8c97f7973f929b493a4e"));
+        assert(hashGenesisBlock == uint256("0x0000e729371aa6478819127587a5e635f371242c520204320a46e6b77390a18d"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -223,7 +209,7 @@ public:
         /*
         std::cout << "Block is: " << genesis.ToString() << std::endl;
         */
-        assert(hashGenesisBlock == uint256("0xb0dd3b9300bac6ebca952b64d8f8e70698c5b94a8bef14e94d564ee6a0d4e00c"));
+        // assert(hashGenesisBlock == uint256("0xb0dd3b9300bac6ebca952b64d8f8e70698c5b94a8bef14e94d564ee6a0d4e00c"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
